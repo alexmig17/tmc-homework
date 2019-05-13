@@ -1,0 +1,70 @@
+check if some book have more than 200 pages: true
+
+check if all books have more than 200 pages: false
+
+Found book with minimum pages:
+ Book{title='Python', authors=[Author{name='Pakiman', age=22}], numberOfPage=150}
+
+Found book with maximum pages:
+ Book{title='java script', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Vladimir', age=58}], numberOfPage=700}
+
+filter books with only single author:
+Book{title='angular', authors=[Author{name='Mercedes', age=19}], numberOfPage=700}
+Book{title='java 8', authors=[Author{name='Vladimir', age=58}], numberOfPage=400}
+Book{title='MySql', authors=[Author{name='Pikachu', age=35}], numberOfPage=450}
+Book{title='Python', authors=[Author{name='Pakiman', age=22}], numberOfPage=150}
+
+sort2 the books by number of pages:
+Book{title='Python', authors=[Author{name='Pakiman', age=22}], numberOfPage=150}
+Book{title='java 8', authors=[Author{name='Vladimir', age=58}], numberOfPage=400}
+Book{title='MySql', authors=[Author{name='Pikachu', age=35}], numberOfPage=450}
+Book{title='C#', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Pokemon', age=46}], numberOfPage=500}
+Book{title='jpa', authors=[Author{name='Pikachu', age=35}, Author{name='Vladimir', age=58}], numberOfPage=550}
+Book{title='java', authors=[Author{name='Pakiman', age=21}, Author{name='Vladimir', age=58}], numberOfPage=600}
+Book{title='java script', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Vladimir', age=58}], numberOfPage=700}
+Book{title='angular', authors=[Author{name='Mercedes', age=19}], numberOfPage=700}
+
+sort2 the books by title:
+Book{title='C#', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Pokemon', age=46}], numberOfPage=500}
+Book{title='MySql', authors=[Author{name='Pikachu', age=35}], numberOfPage=450}
+Book{title='Python', authors=[Author{name='Pakiman', age=22}], numberOfPage=150}
+Book{title='angular', authors=[Author{name='Mercedes', age=19}], numberOfPage=700}
+Book{title='java', authors=[Author{name='Pakiman', age=21}, Author{name='Vladimir', age=58}], numberOfPage=600}
+Book{title='java 8', authors=[Author{name='Vladimir', age=58}], numberOfPage=400}
+Book{title='java script', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Vladimir', age=58}], numberOfPage=700}
+Book{title='jpa', authors=[Author{name='Pikachu', age=35}, Author{name='Vladimir', age=58}], numberOfPage=550}
+
+get list of all titles:
+C#
+java
+java script
+angular
+java 8
+jpa
+MySql
+Python
+
+get distinct list of all authors:
+Nikita
+Vladimir
+Mercedes
+Pikachu
+Pokemon
+Pakiman
+
+Use peek method for debugging intermediate streams:
+:
+Book{title='C#', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Pokemon', age=46}], numberOfPage=500}
+Book{title='java', authors=[Author{name='Pakiman', age=21}, Author{name='Vladimir', age=58}], numberOfPage=600}
+Book{title='java script', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Vladimir', age=58}], numberOfPage=700}
+Book{title='angular', authors=[Author{name='Mercedes', age=19}], numberOfPage=700}
+Book{title='java 8', authors=[Author{name='Vladimir', age=58}], numberOfPage=400}
+Book{title='jpa', authors=[Author{name='Pikachu', age=35}, Author{name='Vladimir', age=58}], numberOfPage=550}
+Book{title='MySql', authors=[Author{name='Pikachu', age=35}], numberOfPage=450}
+Book{title='Python', authors=[Author{name='Pakiman', age=22}], numberOfPage=150}
+Found book with maximum pages:
+ Book{title='java script', authors=[Author{name='Mercedes', age=19}, Author{name='Nikita', age=30}, Author{name='Vladimir', age=58}], numberOfPage=700}
+
+Use the Optional type for determining the title of the biggest book of some author:
+optionalTitle Optional[java script]
+Результат: мама мыла раму

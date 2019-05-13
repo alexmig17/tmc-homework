@@ -1,0 +1,59 @@
+import task2.Salary
+
+group 'com.epam'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+println("Top level println")
+
+task startGradle {
+    doFirst {
+        println("startGradle doFirst")
+    }
+    println("The Gradle is building")
+    doLast {
+        println("startGradle doLast")
+    }
+}
+
+task MyDate(dependsOn: startGradle) {
+    doFirst {
+        println("MyDate doFirst")
+    }
+    println("MyDate:" +  new Date())
+    doLast {
+        println("MyDate doLast")
+    }
+}
+
+task MySalary (type: Salary)
+
+task FriendsSalary (type: Salary) {
+    amount = 20
+}
+
+test {
+    dependsOn 'cleanTest'
+}
+
+test {
+    maxParallelForks = 4
+    testLogging {
+        showExceptions = true
+        showStackTraces = true
+        showCauses = true
+        exceptionFormat = "short"
+    }
+}

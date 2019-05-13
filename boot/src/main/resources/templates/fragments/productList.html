@@ -1,0 +1,96 @@
+!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div th:fragment="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <form action="/product" method="GET">
+                            <div class="row">
+                                <div class="col-xs-6 col-md-4">
+                                    <div class="input-group">
+                                        <!--/*@thymesVar id="products" type="com.epam.test.dto.PaginationResult"*/-->
+                                        <input type="text" name="search" class="form-control" th:placeholder="'&nbsp;' + #{search.placeholder}" th:value="${products.search}"
+                                               required/>
+                                        <input type="number" name="offset" hidden value="0">
+                                        <input type="number" name="elementCount" hidden th:value="${products.elementCount}">
+                                        <input type="text" name="sort" hidden th:value="${products.sort}">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-primary" type="submit">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--/*@thymesVar id="products" type="com.epam.test.dto.PaginationResult"*/-->
+    <th:block th:if="${products.totalPages != null}">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <table>
+                        <tr>
+                            <td th:each="pageNumber : ${products.totalPages}">
+                                <a th:if="${products.search == null}"
+                                   th:text="${'Page# ' + (pageNumber + 1) + ' '}"
+                                   th:href="@{~/product(
+                                    offset=${pageNumber * products.elementCount},
+                                    elementCount=${products.elementCount},
+                                    sort=${products.sort})}">
+                                </a>
+
+                                <a th:if="${products.search != null}"
+                                   th:text="${'Page# ' + (pageNumber + 1) + ' '}"
+                                   th:href="@{~/product(
+                                    offset=${pageNumber * products.elementCount},
+                                    elementCount=${products.elementCount},
+                                    sort=${products.sort},
+                                    search=${products.search})}">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </th:block>
+
+    <div class="container">
+        <div class="row">
+            <th:block th:each="product : ${products.content}" th:if="${not #lists.isEmpty(products.content)}">
+                <div class="col-md-6">
+                    <!--/*@thymesVar id="product" type="com.epam.test.dto.ProductDto"*/-->
+                    <div>
+                        <img heigh="100" width="100" th:src="@{'data:image/jpg;base64,'+${product.image}}" alt="product" class="product-grid__img"/>
+                    </div>
+                    <span th:text="${product.name}">Product title</span>
+                    <span th:text="${product.price + '&euro;'}">1.399&euro;</span>
+                    <div>
+                        <p th:text="${product.description}">Product description</p>
+                        <span><a th:href="${'/product/' + product.id}"> View more</a></span>
+                    </div>
+                </div>
+            </th:block>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

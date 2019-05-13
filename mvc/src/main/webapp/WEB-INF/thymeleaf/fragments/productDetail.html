@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
+    <link href="../../resources/css/core.css" rel="stylesheet" media="screen" th:href="@{/resources/css/core.css}"/>
+</head>
+<body>
+<div class="card" th:fragment="product">
+    <!--/*@thymesVar id="product" type="com.epam.test.dto.ProductDto"*/-->
+    <img th:src="@{'data:image/jpg;base64,'+${product.image}}" alt="product" style="width:25%">
+    <h1 th:text="${product.name}">Tailored Jeans</h1>
+    <p th:text="${'&euro;' + product.price}" class="price">$19.99</p>
+    <p th:text="${product.description}">Some text about the jeans..</p>
+    <p>
+        <button>Add to Cart</button>
+    </p>
+</div>
+</body>
+</html>

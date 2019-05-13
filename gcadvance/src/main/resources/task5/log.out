@@ -1,0 +1,206 @@
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+standard implementation v1
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+standard implementation v1
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 2
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+standard implementation v2
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 3
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+standard implementation v3
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 4
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+standard implementation v1
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 5
+You can update or execute task:
+1. Execute
+2. Update task5.common.LogPrintableImpl
+user input data 1
+********
+standard implementation v1
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 5
+You can update or execute task:
+1. Execute
+2. Update task5.common.LogPrintableImpl
+user input data 2
+please provide full path to task5\common\LogPrintableImpl.java file
+user input data C:\Users\Alex\Desktop\task5\common\LogPrintableImpl.java
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 5
+You can update or execute task:
+1. Execute
+2. Update task5.common.LogPrintableImpl
+user input data 2
+please provide full path to task5\common\LogPrintableImpl.java file
+user input data C:\Users\Alex\Desktop\task5\common\LogPrintableImpl.java
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6, Add new class
+'-1' For exit.
+user input data 1
+********
+custom implementation 
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl_
+6, Add new class
+'-1' For exit.
+user input data 6
+please provide full path to new ..Example.java file
+user input data C:\Users\Alex\Desktop\task5\common\LogPrintableImpl2.java
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6. Sub dialog for task5.common.LogPrintableImpl2
+7, Add new class
+'-1' For exit.
+user input data 6
+You can update or execute task:
+1. Execute
+2. Update task5.common.LogPrintableImpl2
+user input data 1
+********
+custom implementation 2
+********
+Welcome to dynamic class Loader example application.
+Please choose action:
+1. Run current implementation.
+2. Load predefined implementation #2.
+3. Load predefined implementation #3.
+4. Load default implementation.
+5. Sub dialog for task5.common.LogPrintableImpl
+6. Sub dialog for task5.common.LogPrintableImpl2
+7, Add new class
+'-1' For exit.

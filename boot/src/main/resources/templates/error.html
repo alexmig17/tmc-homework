@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="../../resources/css/bootstrap.min.css" rel="stylesheet" media="screen" th:href="@{/resources/css/bootstrap.min.css}"/>
+    <link href="../../resources/css/core.css" rel="stylesheet" media="screen" th:href="@{/resources/css/core.css}"/>
+</head>
+<body>
+
+<!--/*@thymesVar id="errorCode" type="org.springframework.http.HttpStatus"*/-->
+<div th:if="${errorCode}">
+    <h1 th:text="${errorCode.toString()}"></h1>
+</div>
+<div th:if="!${errorCode}">
+    <h1>Something went wrong! </h1>
+</div>
+<a href="/">Go Home</a>
+</body>
+</html>

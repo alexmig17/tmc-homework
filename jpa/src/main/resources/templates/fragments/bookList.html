@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>page</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div th:fragment="books">
+    <!--/*@thymesVar id="page" type="org.springframework.data.domain.Page<com.epam.test.dto.BookDto>"*/-->
+    <!--/*@thymesVar id="pageNumbers" type="java.util.List<java.lang.Integer>"*/-->
+    <div class="pagination" th:each="pageNumber : ${pageNumbers}"
+         th:if="${page.totalPages > 0}">
+        <a th:class="${pageNumber==page.number + 1} ? active"
+           th:href="@{/book(size=${page.size}, page=${pageNumber})}"
+           th:text="${pageNumber}"></a>
+    </div>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        </thead>
+        <!--/*@thymesVar id="page" type="org.springframework.data.domain.Page<com.epam.test.dto.BookDto>"*/-->
+        <tbody>
+        <tr th:each="book : ${page.content}">
+            <!--/*@thymesVar id="book" type="com.epam.test.dto.BookDto"*/-->
+            <td th:text="${book.title}"/>
+            <td th:text="${book.description}"/>
+            <td><a th:href="${'/book/' + book.id}">details</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Configuration:
+  status: warn
+
+  Appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        Pattern: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+
+  Loggers:
+    Root:
+      level: error
+      AppenderRef:
+        ref: Console
+    Logger:
+      - name: com.epam.test
+        level: debug
+        AppenderRef:
+          ref: Console
+      - name: org.springframework.jdbc.core
+        level: trace
+        AppenderRef:
+          ref: Console
+      - name: org.springframework.jdbc.core.JdbcTemplate
+        level: trace
+        AppenderRef:
+          ref: Console

@@ -1,0 +1,100 @@
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 0
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 1
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 2
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 3
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 4
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 5
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 6
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 7
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 8
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 9
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 10
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 11
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 12
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 13
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 14
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 15
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 16
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 17
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 18
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 19
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 20
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 21
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 22
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 23
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 24
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 25
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 26
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 27
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 28
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 29
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 30
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 31
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 32
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 33
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 34
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 35
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 36
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 37
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 38
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 39
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 40
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 41
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 42
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 43
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 44
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 45
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 46
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 47
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 48
+2018-дек-09 17:07:33 PM [main] DEBUG com.epam.task3.EventBusApp - send 49
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 1:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 2:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 3:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 4:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 5:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 6:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 7:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 8:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 9:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 10:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 11:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 12:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 13:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 14:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 15:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 16:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 17:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 18:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 19:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 20:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 21:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 22:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 23:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 24:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 25:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 26:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 27:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 28:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 29:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 30:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 31:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 32:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 33:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 34:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 35:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 36:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 37:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 38:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 39:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 40:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 41:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 42:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 43:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 44:consumer:4
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 45:consumer:3
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:excellent news:message:number 46:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-2] DEBUG com.epam.task3.EventBusApp - pool-2-thread-2:event:god news:message:number 47:consumer:1
+2018-дек-09 17:07:33 PM [pool-2-thread-1] DEBUG com.epam.task3.EventBusApp - pool-2-thread-1:event:excellent news:message:number 0:consumer:0
+2018-дек-09 17:07:33 PM [pool-2-thread-3] DEBUG com.epam.task3.EventBusApp - pool-2-thread-3:event:excellent news:message:number 48:consumer:2
+2018-дек-09 17:07:33 PM [pool-2-thread-4] DEBUG com.epam.task3.EventBusApp - pool-2-thread-4:event:god news:message:number 49:consumer:3

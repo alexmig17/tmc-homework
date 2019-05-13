@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--/*@thymesVar id="product" type="com.epam.test.dto.BookDto"*/-->
+<form action="/book" method="post" name="user" th:object="${book}">
+
+    <input hidden name="id" th:if="${book.id}" th:value="${book.id}" type="number">
+    <label for="title">Title</label>
+    <input id="title" maxlength="100" name="title" required th:value="${book.title}?:''" type="text"/>
+    <br>
+    <label for="description">Description</label>
+    <input id="description" maxlength="500" name="description" required th:value="${book.description}?:''"
+           type="text"/>
+    <br>
+    <label for="isbn">ISBN</label>
+    <input id="isbn" maxlength="20" name="isbn" required th:value="${book.isbn}?:''" type="text"/>
+    <br>
+    <input hidden name="documentId" th:if="${book.documentId}" th:value="${book.documentId}" type="number">
+    <br>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>

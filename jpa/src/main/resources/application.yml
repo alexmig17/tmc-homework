@@ -1,0 +1,51 @@
+#server:
+#  port: 8080
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /console
+  datasource:
+    url: jdbc:h2:mem:bd;DB_CLOSE_DELAY=-1
+  profiles:
+    active: local
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#  data:
+#    rest:
+#      default-page-size: 10
+#      sort-param-name: sort
+
+
+logging:
+  level:
+    com.epam.test: ERROR
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: boot/logFile.log
+
+---
+
+spring:
+  profiles: dev
+
+logging:
+  level:
+    com.epam.test: DEBUG
+
+---
+
+spring:
+  profiles: prod
+  h2:
+    console:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:prodBd;DB_CLOSE_DELAY=-1
+server:
+  port: 9595
+

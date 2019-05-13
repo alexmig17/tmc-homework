@@ -1,0 +1,70 @@
+server:
+  port: 9292
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /console
+  datasource:
+    url: jdbc:h2:mem:bd;DB_CLOSE_DELAY=-1
+  profiles:
+    active: local
+  boot:
+    admin:
+      client:
+        url: http://localhost:9191
+        username: admin
+        password: admin
+        instance:
+          metadata:
+            user.name: client
+            user.password: client
+  security:
+    user:
+      name: client
+      password: $2a$10$BNwItV6OGDtuPzVxnCyNKOjJUYO.eEdXZMiXk5UVz0LRt.ouRJSty
+#      client $2a$10$BNwItV6OGDtuPzVxnCyNKOjJUYO.eEdXZMiXk5UVz0LRt.ouRJSty
+      roles: ACTUATOR
+
+logging:
+  level:
+    com.epam.test: ERROR
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: boot/logFile.log
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics
+  metrics:
+    export:
+      atlas:
+        enabled: false
+
+shutdown:
+  condition:
+    count_of_record: 3
+
+---
+
+spring:
+  profiles: dev
+
+logging:
+  level:
+    com.epam.test: DEBUG
+
+---
+
+spring:
+  profiles: prod
+  h2:
+    console:
+      enabled: false
+  datasource:
+    url: jdbc:h2:mem:prodBd;DB_CLOSE_DELAY=-1
+server:
+  port: 9595

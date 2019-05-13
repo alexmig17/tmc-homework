@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>page</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link href="../../resources/css/bootstrap.min.css" media="screen" rel="stylesheet" th:href="@{/resources/css/bootstrap.min.css}"/>
+    <link href="../../resources/css/core.css" media="screen" rel="stylesheet" th:href="@{/resources/css/core.css}"/>
+</head>
+<body>
+<div class="card" th:fragment="book">
+    <!--/*@thymesVar id="book" type="com.epam.test.dto.BookDto"*/-->
+    <h1 th:text="${book.title}">title</h1>
+    <p th:text="${book.author}">Jon</p>
+    <p th:text="${book.description}">Some text about the book..</p>
+    <p th:text="${book.isbn}">ISBN</p>
+    <a th:href="${'/document/' + book.documentId}" th:if="${book.documentId}">download</a>
+</div>
+</body>
+</html>
