@@ -11,6 +11,7 @@
         <module>gcadvance</module>
         <module>jenkins</module>
         <module>unit_test</module>
+        <module>boot</module>
         <module>multithreading</module>
         <module>advanced_multithreading</module>
         <module>mvc</module>
